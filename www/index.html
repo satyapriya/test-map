@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta http-equiv="Content-Security-Policy" content="default-src * ; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src * 'unsafe-inline' 'unsafe-eval' https://maps.googleapis.com https://maps.gstatic.com ; media-src *; img-src 'self' http://s3-ap-southeast-1.amazonaws.com data: *; ">
     <title></title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
@@ -17,6 +18,7 @@
     <script src='lib/lodash/lodash.min.js'></script>
     <script src='lib/angular-simple-logger/dist/angular-simple-logger.min.js'></script>
     <script src='lib/angular-google-maps/dist/angular-google-maps.min.js'></script>
+    <script src='lib/fastclick/lib/fastclick.js'></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
